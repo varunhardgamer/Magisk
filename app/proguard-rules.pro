@@ -30,6 +30,7 @@
 
 # Snet
 -keepclassmembers class com.topjohnwu.magisk.ui.safetynet.SafetyNetHelper { *; }
+-keepnames class androidx.navigation.fragment.NavHostFragment
 -keep,allowobfuscation interface com.topjohnwu.magisk.ui.safetynet.SafetyNetHelper$Callback
 -keepclassmembers class * implements com.topjohnwu.magisk.ui.safetynet.SafetyNetHelper$Callback {
   void onResponse(org.json.JSONObject);
